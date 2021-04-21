@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+img{
+    margin-right: 10px;
+}
+
+.loginContent{
+    opacity: 0;
+}
+
+.signUpContent{
+    opacity: 0;
+}
+
+.ui.center.aligned.icon.header{
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.ui.form{
+    width: 450px;
+    background-color: white;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.48);
+    box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.48);
+    border-radius: 3px;
+}
+
+.ui.button{
+    width: 410px;
+    background-color: red;
+    color :red;
+}
+
+.new{
+    margin-top: 10px;
+    text-align: center;
+}
+
+p{
+    color: red;
+}
+
+#edit{
+    margin: 30px;
+}

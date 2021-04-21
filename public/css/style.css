@@ -1,0 +1,319 @@
+/*TRANSI*/
+
+.loading-screen {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    background-color: #d38c31;
+    width: 100%;
+    height: 100%;
+    transform: scaleY(0) skewX(0);
+    transform-origin: top left;
+  }
+  
+  .loading-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 10;
+    pointer-events: none;
+  }
+
+
+.navbar{
+    background-color: #ED5757;
+}
+
+.header.content{
+    position: relative;
+    left: 150px;
+    right: 150px;
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+}
+
+a{
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu{ 
+    display: flex;
+}
+
+.item {
+    margin: 0px 50px;
+}
+
+.item p{
+    color: white;
+}
+
+#login, #signup, #account, #logout{
+    left: 600px;
+    position: relative;
+}
+
+.ui.divider.nav{
+    position: relative;
+    bottom: 20px;
+}
+
+/* ACCUEIL */
+
+.accueil{
+    background: rgb(237,87,87);
+    background: linear-gradient(180deg, rgba(237,87,87,1) 17%, rgba(195,115,113,1) 36%, rgba(179,148,147,1) 100%) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.film_semaine{
+    width: 100%;
+    margin: 60px auto 100px auto;
+    text-align: center;
+    width: 1400px;
+}
+
+.glider{
+    width: 1300px;
+}
+
+.film_semaine h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-size: 34px;
+}
+
+.carousel img{
+    -webkit-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.48);
+    box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.48);
+    border-radius: 5px;
+}
+
+.carousel:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+
+/*FILM EN SALLE*/
+
+.film_salle{
+    margin-top: 100px;
+}
+
+.film_salle h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 34px;
+}
+
+.allFilm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 150px;
+}
+
+
+.filmOverlay{
+    margin: 20px 20px;
+}
+
+.filmOverlay{
+    opacity: 0;
+}
+
+.filmImg img{
+    border: solid grey 2px;
+}
+
+.filmOverlay:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.filmTitre h2{
+    letter-spacing: 1.5px;
+    font-family: 'Rubik', sans-serif;
+    color: White;
+    max-width: 300px;
+    text-transform: uppercase;
+}
+
+
+/* PAGE FILM */
+
+/*DESCRIPTION FILM */
+.film{
+    height: 650px;
+    background: linear-gradient(180deg, #ED5757 0%, #F06E6E 5.73%, #E79595 38.54%, #D2ADAD 70.83%, #FFFFFF 100%);
+
+}
+
+.info{
+    display: flex;
+    margin: 0px 200px;
+    align-items: center;
+}
+
+.rightContent{
+    opacity: 0;
+}
+
+.imageFilm, .rightContent{
+    margin: 60px 50px;
+}
+
+.imageFilm img{
+    -webkit-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.48);
+    box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.48);
+    border-radius: 5px;
+}
+
+.rightContent{
+    margin-bottom: 150px;
+}
+
+.titre{
+    margin: 30px 0px;
+}
+
+.trailer{
+    margin: 20px 0px;
+}
+
+.temps{
+    margin: 20px 0px;
+}
+
+.titre h1{
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 45px;
+
+    color: #000000;
+}
+
+.description h2{
+    max-width: 700px;
+}
+
+.description h2{
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+}
+
+.temps h4{
+    font-size: 17px;
+}
+
+.trailer button{
+    background: #FF3C3C;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 12px 30px;
+}
+
+.trailer button:hover{
+    transform: scale(1.02);
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.temps{
+    display: flex;
+}
+
+/* RESERVER UNE PLACE */
+.titlePlace{
+    margin: 50px 150px;
+}
+
+.titlePlace h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.book{
+    padding-bottom: 50px;
+}
+
+.place{
+    display: flex;
+    justify-content: center;
+}
+
+.visualisation h2{
+    text-align: center;
+}
+
+.reservation{
+    margin-left: 100px;
+    background-color: white;
+    padding: 25px 30px;
+    -webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.48);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.48);
+    border-radius: 3px;
+    height: 230px;
+}
+
+
+#form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 600px;
+}
+
+.case{
+    margin: 10px 15px;
+}
+
+
+/* RESERVATION */
+
+.info_reservation{
+    text-align: center;
+}
+
+.info_reservation a{
+    color: red;
+}
+
+.info_reservation a:hover{
+    color: rgb(163, 10, 10);
+}
+
+.table_titre{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.table{
+    margin: 0 auto;
+    width: 1200px;
+}
